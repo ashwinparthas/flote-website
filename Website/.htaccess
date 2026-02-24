@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP_HOST} ^(www\.)?flote\.org$ [NC]
+RewriteRule ^(.*)$ https://flote.org/$1 [L,R=301]
+</IfModule>
