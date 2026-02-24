@@ -1,4 +1,4 @@
-# FLOTE Website
+# FLOTE Website (https://ashwinparthas.github.io/flote-website/)
 
 This repo is configured to deploy the static site in `Website/` to GitHub Pages for free using GitHub Actions.
 
