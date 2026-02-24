@@ -1,4 +1,4 @@
-# FLOTE Website (GitHub Pages Ready)
+# FLOTE Website
 
 This repo is configured to deploy the static site in `Website/` to GitHub Pages for free using GitHub Actions.
 
