@@ -26,13 +26,3 @@ python3 -m http.server 8080 --directory Website
 ```
 
 Then open `http://localhost:8080`.
-
-## Updating the site
-
-- Edit files under `Website/`.
-- Commit and push to `main` or `master`.
-- GitHub Actions redeploys automatically.
-
-## Optional: custom domain
-
-If you want a custom domain later, add a `Website/CNAME` file with your domain, then configure DNS at your registrar.
